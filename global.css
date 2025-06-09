@@ -8,7 +8,9 @@ body {
   --color-mediumvioletred: #b92195;
   --color-silver: #b5b5b5;
   --color-dimgray: #727272;
+  --color-lightgray: #d0d0d0;
   --color-lemonchiffon: #fff4ce;
+  --color-gainsboro-300: #d9d9d9;
   --color-gainsboro-200: #e6e6e6;
   --color-gainsboro-100: #e7e7e7;
   --color-orangered: #ff6400;
@@ -33,10 +35,11 @@ body {
   --color-gray-200: #222;
   --color-gray-100: #272727;
   --color-chocolate: #ec6608;
-  --color-black: #000;
   --color-white: #fff;
   --Red: #db2e20;
   --Body: #4a4a4a;
+  --Body1: #4a4a4a;
+  --Black: #000;
   --FFB700: #ffb700;
   --Yellow: #ffb700;
   --System-Colors-Headings: #1e1e1e;
@@ -51,6 +54,7 @@ body {
   --gap-36: 36px;
   --gap-16: 16px;
   --gap-18: 18px;
+  --gap-48: 48px;
   --gap-24: 24px;
   --gap-26: 26px;
   --gap-30: 30px;
@@ -88,6 +92,7 @@ body {
   --padding-5: 5px;
 
   /* BorderRadius */
+  --br-5: 5px;
   --br-3: 3px;
   --br-10: 10px;
   --br-100: 100px;
@@ -102,6 +107,7 @@ body {
 
   /* FontSize */
   --font-size-14: 14px;
+  --font-size-28: 28px;
   --font-size-36: 36px;
   --font-size-20: 20px;
   --font-size-48: 48px;

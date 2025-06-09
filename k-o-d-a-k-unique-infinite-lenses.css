@@ -10,7 +10,7 @@
   z-index: 1;
 }
 .frame-child {
-  background-color: var(--color-black);
+  background-color: var(--Black);
 }
 .frame-child,
 .frame-item {
@@ -18,7 +18,7 @@
   flex: 1;
   position: relative;
   border-radius: 50%;
-  border: 0 solid var(--color-black);
+  border: 0 solid var(--Black);
 }
 .ellipse-parent {
   position: absolute;
@@ -87,7 +87,7 @@
 }
 .lens-recommender-wrapper {
   border-radius: var(--br-16);
-  background-color: var(--color-black);
+  background-color: var(--Black);
   align-items: center;
   justify-content: center;
   padding: var(--padding-16) var(--padding-22);
@@ -148,7 +148,7 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-16);
-  color: var(--color-black);
+  color: var(--Black);
   font-family: var(--font-graphik);
 }
 .order-now-content-child {
@@ -351,7 +351,7 @@
   position: relative;
   border-radius: var(--br-10);
   background-color: var(--color-white);
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--Black);
   box-sizing: border-box;
   display: none;
   max-width: 100%;
@@ -379,7 +379,7 @@
 .rectangle-group {
   border-radius: var(--br-10);
   background-color: var(--color-white);
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--Black);
   justify-content: flex-start;
   padding: 24.8px var(--padding-19);
   gap: 88.9px;
@@ -398,7 +398,7 @@
 .rectangle-container {
   border-radius: var(--br-10);
   background-color: var(--color-white);
-  border: 2px solid var(--color-black);
+  border: 2px solid var(--Black);
   justify-content: flex-start;
   padding: 24.8px var(--padding-19);
   gap: 148.8px;
@@ -415,7 +415,7 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-24);
-  color: var(--color-black);
+  color: var(--Black);
   font-family: var(--font-graphik);
 }
 .frame-child4 {
@@ -706,7 +706,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-20) var(--padding-40);
-  background-color: var(--color-black);
+  background-color: var(--Black);
   height: 60px;
   border-radius: var(--br-100);
   display: flex;
@@ -810,7 +810,7 @@
   gap: 86px;
   text-align: center;
   font-size: var(--font-size-64);
-  color: var(--color-black);
+  color: var(--Black);
   font-family: var(--font-graphik);
 }
 .image-icon4 {
@@ -1276,7 +1276,8 @@
   width: 1920px;
   height: 1084px;
   position: relative;
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
     radial-gradient(50% 50%at 50% 50%, #323232, #141313);
   display: none;
   max-width: 100%;
@@ -1305,7 +1306,8 @@
   position: absolute;
   top: 5214.3px;
   left: 0;
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
     radial-gradient(50% 50%at 50% 50%, #323232, #141313);
   width: 100%;
   display: flex;
@@ -1559,7 +1561,7 @@
   line-height: 30px;
   font-weight: 500;
   font-family: var(--font-graphik);
-  color: var(--color-black);
+  color: var(--Black);
   text-align: left;
 }
 .take-the-quiz-container {
@@ -2371,7 +2373,7 @@
   padding: var(--padding-20) var(--padding-40);
   box-sizing: border-box;
   font-size: var(--font-size-18);
-  color: var(--color-black);
+  color: var(--Black);
 }
 .soft-wear-detail,
 .soft-wear-elements {
@@ -2562,7 +2564,8 @@
   width: 1920px;
   height: 1084px;
   position: relative;
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
     radial-gradient(50% 50%at 50% 50%, #323232, #141313);
   display: none;
   max-width: 100%;
@@ -2612,7 +2615,8 @@
   font-size: var(--font-size-20);
 }
 .image-parent2 {
-  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
+  background:
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.5)),
     radial-gradient(50% 50%at 50% 50%, #323232, #141313);
   padding: 179.3px 260px 787.3px;
   box-sizing: border-box;
@@ -3151,7 +3155,7 @@
   letter-spacing: normal;
   text-align: center;
   font-size: var(--font-size-24);
-  color: var(--color-black);
+  color: var(--Black);
   font-family: var(--font-graphik);
 }
 @media screen and (max-width: 1875px) {
@@ -3199,7 +3203,7 @@
     flex-wrap: wrap;
   }
   .statement {
-    gap: 48px;
+    gap: var(--gap-48);
   }
   .progression-vision-ease {
     flex-wrap: wrap;
@@ -3594,7 +3598,7 @@
     line-height: 18px;
   }
   .explanation {
-    font-size: 28px;
+    font-size: var(--font-size-28);
     line-height: 28px;
   }
   .the-proof-is-container {
