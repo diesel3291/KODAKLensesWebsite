@@ -6,73 +6,113 @@ body {
 :root {
   /* Color */
   --color-mediumvioletred: #b92195;
-  --color-whitesmoke: #f8f8f8;
   --color-silver: #b5b5b5;
-  --color-gray-300: rgba(30, 30, 30, 0.1);
-  --color-gray-200: #221d19;
-  --color-gray-100: #272727;
-  --color-darkgray: #adadad;
+  --color-dimgray: #727272;
+  --color-lemonchiffon: #fff4ce;
+  --color-gainsboro-200: #e6e6e6;
+  --color-gainsboro-100: #e7e7e7;
+  --color-orangered: #ff6400;
+  --color-whitesmoke: #f8f8f8;
+  --color-forestgreen: #00a63f;
   --color-darkslategray-200: #333;
   --color-darkslategray-100: #444;
-  --color-gainsboro: #e7e7e7;
+  --color-gold: #f8bc00;
+  --color-springgreen: #21f371;
+  --color-darkgray-400: rgba(174, 174, 174, 0.7);
+  --color-darkgray-300: #969696;
+  --color-darkgray-200: #adadad;
+  --color-darkgray-100: #aeaeae;
+  --color-gray-1000: rgba(255, 255, 255, 0.7);
+  --color-gray-900: rgba(255, 255, 255, 0.72);
+  --color-gray-800: rgba(255, 255, 255, 0.8);
+  --color-gray-700: rgba(255, 255, 255, 0.23);
+  --color-gray-600: rgba(30, 30, 30, 0.1);
+  --color-gray-500: #141414;
+  --color-gray-400: #1b1b1b;
+  --color-gray-300: #221d19;
+  --color-gray-200: #222;
+  --color-gray-100: #272727;
+  --color-chocolate: #ec6608;
   --color-black: #000;
-  --color-dimgray: #727272;
   --color-white: #fff;
-  --FFB700: #ffb700;
   --Red: #db2e20;
-  --Yellow: #ffb700;
   --Body: #4a4a4a;
+  --FFB700: #ffb700;
+  --Yellow: #ffb700;
   --System-Colors-Headings: #1e1e1e;
+  --Headings: #1e1e1e;
 
   /* Gap */
-  --gap-16: 16px;
-  --gap-40: 40px;
-  --gap-26: 26px;
   --gap-22: 22px;
-  --gap-10: 10px;
-  --gap-15: 15px;
-  --gap-19: 19px;
-  --gap-18: 18px;
-  --gap-20: 20px;
+  --gap-14: 14px;
+  --gap-40: 40px;
   --gap-28: 28px;
+  --gap-19: 19px;
+  --gap-36: 36px;
+  --gap-16: 16px;
+  --gap-18: 18px;
+  --gap-24: 24px;
+  --gap-26: 26px;
   --gap-30: 30px;
+  --gap-15: 15px;
+  --gap-32: 32px;
+  --gap-10: 10px;
+  --gap-20: 20px;
+  --gap-12: 12px;
 
   /* Padding */
-  --padding-28: 28px;
-  --padding-5: 5px;
-  --padding-8: 8px;
+  --padding-6: 6px;
+  --padding-48: 48px;
+  --padding-4: 4px;
+  --padding-26: 26px;
   --padding-11: 11px;
   --padding-2: 2px;
-  --padding-26: 26px;
-  --padding-10: 10px;
-  --padding-15: 15px;
   --padding-14: 14px;
-  --padding-40: 40px;
-  --padding-19: 19px;
-  --padding-16: 16px;
   --padding-30: 30px;
   --padding-60: 60px;
-  --padding-6: 6px;
-  --padding-18: 18px;
+  --padding-24: 24px;
+  --padding-1: 1px;
+  --padding-40: 40px;
   --padding-20: 20px;
+  --padding-8: 8px;
+  --padding-32: 32px;
+  --padding-10: 10px;
+  --padding-12: 12px;
+  --padding-3: 3px;
+  --padding-15: 15px;
+  --padding-19: 19px;
+  --padding-28: 28px;
+  --padding-22: 22px;
+  --padding-16: 16px;
+  --padding-18: 18px;
+  --padding-5: 5px;
 
   /* BorderRadius */
   --br-3: 3px;
+  --br-10: 10px;
   --br-100: 100px;
   --br-20: 20px;
-  --br-10: 10px;
+  --br-15: 15px;
+  --br-16: 16px;
 
   /* Font */
+  --font-content: Content;
   --font-inter: Inter;
   --font-graphik: Graphik;
 
   /* FontSize */
-  --font-size-19: 19px;
-  --font-size-26: 26px;
-  --font-size-16: 16px;
+  --font-size-14: 14px;
+  --font-size-36: 36px;
   --font-size-20: 20px;
+  --font-size-48: 48px;
+  --font-size-30: 30px;
+  --font-size-22: 22px;
+  --font-size-26: 26px;
+  --font-size-32: 32px;
+  --font-size-64: 64px;
+  --font-size-72: 72px;
+  --font-size-16: 16px;
+  --font-size-19: 19px;
   --font-size-24: 24px;
   --font-size-18: 18px;
-  --font-size-30: 30px;
-  --font-size-72: 72px;
 }
